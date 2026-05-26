@@ -1,0 +1,7 @@
+[build]
+  # No build command needed for this plain static site
+  publish = "."
+
+[functions]
+  # Optional functions directory if you add serverless functions later
+  directory = "netlify/functions"
